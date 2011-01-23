@@ -7,6 +7,9 @@ describe HomeController do
       get 'index'
       response.should be_success
     end
+    it "should fail" do
+      false.should be_true
+    end
   end
 
 end
